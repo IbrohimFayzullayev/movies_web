@@ -1,0 +1,28 @@
+{
+  "name": "movies_mvc",
+  "version": "1.0.0",
+  "description": "<p> You find best movies on this site </p>",
+  "main": "controller.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrohimFayzullayev/movies_web.git"
+  },
+  "author": "Ibrohim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrohimFayzullayev/movies_web/issues"
+  },
+  "homepage": "https://github.com/IbrohimFayzullayev/movies_web#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "lodash": "^4.17.21",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
