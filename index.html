@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <script defer type="module" src="controller.js"></script>
     <title>Movie Website Re-Design</title>
   </head>
 
@@ -28,25 +29,6 @@
       chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
-    <!-- Your SDK code -->
-    <script>
-      // window.fbAsyncInit = function () {
-      //   FB.init({
-      //     xfbml: true,
-      //     version: "v12.0",
-      //   });
-      // };
-
-      // (function (d, s, id) {
-      //   var js,
-      //     fjs = d.getElementsByTagName(s)[0];
-      //   if (d.getElementById(id)) return;
-      //   js = d.createElement(s);
-      //   js.id = id;
-      //   js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-      //   fjs.parentNode.insertBefore(js, fjs);
-      // })(document, "script", "facebook-jssdk");
-    </script>
     <div class="navbar">
       <div class="navbar-container">
         <div class="logo-container">
@@ -119,7 +101,7 @@
           <h1 class="movie-list-title">MOVIES</h1>
           <div class="movie-list-wrapper">
             <div class="movie-list">
-              <div class="movie-list-item">
+              <!-- <div class="movie-list-item">
                 <img class="movie-list-item-img" src="img/1.jpeg" alt="" />
                 <span class="movie-list-item-title">Her</span>
                 <p class="movie-list-item-desc">
@@ -181,9 +163,9 @@
                   hic fugit similique accusantium.
                 </p>
                 <button class="movie-list-item-button">Watch</button>
-              </div>
+              </div> -->
             </div>
-            <i class="fas fa-chevron-right arrow"></i>
+            <!-- <i class="fas fa-chevron-right arrow"></i> -->
           </div>
         </div>
 
@@ -419,6 +401,5 @@
       </div>
     </div>
     <script src="app.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>
