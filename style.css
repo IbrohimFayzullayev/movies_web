@@ -160,11 +160,12 @@ body {
 
 .movie-list {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
-  height: 300px;
+  row-gap: 30px;
   transform: translateX(0);
   transition: all 1s ease-in-out;
+  padding: 60px 10px;
 }
 
 .movie-list-item {
