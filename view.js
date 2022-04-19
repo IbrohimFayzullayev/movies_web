@@ -1,7 +1,7 @@
 class ViewResult {
   #userInput = document.querySelector(".user_search");
-  #searchBtn = document.querySelector(".search_btn");
   #parentDiv = document.querySelector(".movie-list");
+  #form = document.querySelector(".user__form");
 
   #clearHtml() {
     this.#parentDiv.innerHTML = "";
@@ -10,7 +10,8 @@ class ViewResult {
     return this.#userInput.value;
   }
   addHandlerEvent(handle) {
-    this.#searchBtn.addEventListener("click", function () {
+    this.#form.addEventListener("submit", function (e) {
+      e.preventDefault();
       handle();
     });
   }
