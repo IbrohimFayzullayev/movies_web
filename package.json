@@ -2,7 +2,6 @@
   "name": "movies_mvc",
   "version": "1.0.0",
   "description": "<p> You find best movies on this site </p>",
-  "main": "controller.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
